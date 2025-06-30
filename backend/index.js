@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = 5000;
+const port = 8081;
 
 app.use(cors());
 
@@ -29,8 +29,10 @@ app.get('/api/reports', (req, res) => {
   const { category } = req.query;
   if (category) {
     return res.json(reports.filter(r => r.category === category));
+  } else {
+    return res.json(reports);
   }
-  res.json(reports);
+  
 });
 
 
