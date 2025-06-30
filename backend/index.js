@@ -5,7 +5,7 @@ const port = 8081;
 
 app.use(cors());
 
-
+// static array of report objects each containing an id, name, category and created at data
 const reports = [
   { id: 1, name: "Sales For Q1", category: "Finance", createdAt: "2024-01-10" },
   { id: 2, name: "Market Analysis", category: "Marketing", createdAt: "2024-02-11" },
