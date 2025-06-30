@@ -15,7 +15,7 @@ const reports = [
   { id: 6, name: "Budget Forecast", category: "Finance", createdAt: "2024-06-01" },
   { id: 7, name: "Recruitment Stats", category: "HR", createdAt: "2024-04-01" },
   { id: 8, name: "Campaign Results", category: "Marketing", createdAt: "2024-06-10" },
-  { id: 9, name: "Tech Support", category: "IT", createdAt: "2024-25-02" },
+  { id: 9, name: "Tech Support", category: "IT", createdAt: "2024-09-02" },
   { id: 10, name: "Annual Report", category: "General", createdAt: "2024-01-01" }
 ];
 
